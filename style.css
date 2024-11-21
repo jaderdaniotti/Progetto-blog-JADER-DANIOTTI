@@ -1,0 +1,42 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.logo-dogo{
+    height: 10vh;
+    width: 20vh;
+}
+
+@media screen and (max-width: 480px) {
+    .logo-dogo {
+      height: 4vh;
+      width: 6vh;
+    }
+    body{
+        overflow: visible;
+    }
+  }
+
+#sfondo-1{
+    height: 100%;
+    width: 100%;
+    
+}
+
+p{
+    text-align: center;
+}
+
+#carosello{
+    height: 500vh;
+}
+
+#overflow{
+    height: 100vh;
+    overflow: hidden;
+}
+
